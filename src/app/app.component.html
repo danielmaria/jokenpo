@@ -11,12 +11,12 @@
   <div class="results row">
 
     <div class="my-choice column" [hidden]="userChoice.name === ''">
-      <img src="./../../../assets/images/{{userChoice.name}}.png" class="choice">
+      <img src="../assets/images/{{userChoice.name}}.png" class="choice">
       <p>Your choice: {{userChoice.name}}</p>
       <p>Wins: {{userChoice.wins}}</p>
     </div>
     <div class="machine-choice column" [hidden]="machineChoice.name === ''">
-      <img src="./../../../assets/images/{{machineChoice.name}}.png" class="choice">
+      <img src="../assets/images/{{machineChoice.name}}.png" class="choice">
       <p>Machine choice: {{machineChoice.name}}</p>
       <p>Wins: {{machineChoice.wins}}</p>
     </div>
